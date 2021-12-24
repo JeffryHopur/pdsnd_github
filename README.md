@@ -9,6 +9,6 @@ I made use of python in order to explore data realations of the bike sharing sys
 
 ### Files used
 The files used for running this script are:
-  washington.csv
-  new_york_city.csv
-  chicago.csv
+washington.csv,
+new_york_city.csv and
+chicago.csv
