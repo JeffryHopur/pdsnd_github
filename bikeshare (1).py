@@ -26,7 +26,6 @@ def get_filters():
         if city_name.lower() in CITY_DATA:
 
             city = CITY_DATA[city_name.lower()]
-        #print a message if data does not match
         else:
 
             print('Sorry the input does not match the cities we have data on please enter chicago, new york city or washington.\n')
@@ -38,7 +37,6 @@ def get_filters():
         if month_name.lower() in MONTH_DATA:
 
             month = month_name.lower()
-        #print a message if data does not match
         else:
 
             print('sorry we were not able to process the input please input (all) to apply no month filter or input january, febuary, march,Etc.\n')
@@ -50,7 +48,6 @@ def get_filters():
         if day_name.lower() in DAY_DATA:
 
             day = day_name.lower()
-        #print a message if data does not match
         else:
 
             print('sorry we were not able to process the input please input (all) to apply no day filters or input monday, tuesday, wednesday,Etc.)\n')
