@@ -197,7 +197,7 @@ def user_stats(df):
         print('The filtered data shows the most recent birth is: {}\n', most_recent_birth)
         print('The filtered data shows the most common birth is: {}\n', most_common_birth)
     else:
-        print('Gender stats cannot be calculated because Gender does not appear in the dataframe')
+        print('Gender stats cannot be calculated because Gender does not appear in the washington database')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
