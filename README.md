@@ -1,17 +1,11 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+### 2021-12-24
 
-### Project Title
-Replace the Project Title
+### Bike Share Project
 
-### Description
-Describe what your project is about and what it does
+### DescriptionI made use of python in order to explore data realations of the bike sharing system of three cities in the U.S (New York City, Chicago and Washington). A script was written in order to take in raw input from users and interpate the users input. Then the script returns data that the user wants to see.
 
 ### Files used
-Include the files used
+The files used for running this script are: washington.csv, new_york_city.csv and chicago.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
