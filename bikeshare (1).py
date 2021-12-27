@@ -22,12 +22,12 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_name = ''
     while city_name.lower() not in CITY_DATA:
-        city_name = input('Which city whould you like to analyze data for? (E.g. chicago, new york city, washington)\n')
+        city_name = input('Which city whould you like to analyze data for? (E.g. chicago, new york city, washington), Washington does not have userdata.\n')
         if city_name.lower() in CITY_DATA:
-            
+
             city = CITY_DATA[city_name.lower()]
         else:
-            
+
             print('Sorry the input does not match the cities we have data on please enter chicago, new york city or washington.\n')
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -35,10 +35,10 @@ def get_filters():
     while month_name.lower() not in MONTH_DATA:
         month_name = input('Which month would you like to filter the data by? (E.g Please input (all) to apply no month filter or input january, febuary, march,Etc.)\n')
         if month_name.lower() in MONTH_DATA:
-            
+
             month = month_name.lower()
         else:
-           
+
             print('sorry we were not able to process the input please input (all) to apply no month filter or input january, febuary, march,Etc.\n')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -46,10 +46,10 @@ def get_filters():
     while day_name.lower() not in DAY_DATA:
         day_name = input('Which day would you like to filter the data by? (E.g Please input (all) to apply no day filters or input monday, tuesday, wednesday,Etc.)\n')
         if day_name.lower() in DAY_DATA:
-          
+
             day = day_name.lower()
         else:
-         
+
             print('sorry we were not able to process the input please input (all) to apply no day filters or input monday, tuesday, wednesday,Etc.)\n')
 
     print('-'*40)
@@ -161,11 +161,11 @@ def trip_duration_stats(df):
     # TO DO: display mean travel time
     mean_travel_time = trip_duration.mean()
     print('The filtered data shows the mean travel time is: \n', str(mean_travel_time))
-    
+
     # display max travel time
     max_travel_time = trip_duration.max()
     print('The filtered data shows the max travel time is: \n', str(max_travel_time))
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -198,7 +198,7 @@ def user_stats(df):
         print('The filtered data shows the most common birth is: {}\n', most_common_birth)
     else:
         print('Gender stats cannot be calculated because Gender does not appear in the dataframe')
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
