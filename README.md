@@ -13,7 +13,6 @@ The database will then sport the infomation based on the filters chosen.
 
 The user can then chose to view the raw data after the origional information is provided.
 ### Files used
-
 The files used for running this script are: 
 
 washington.csv
